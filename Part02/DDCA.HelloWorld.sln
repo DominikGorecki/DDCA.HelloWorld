@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29920.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDCA.HelloWorld", "DDCA.HelloWorld\DDCA.HelloWorld.csproj", "{686C0149-922C-491A-B267-91AF42A8253F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDCA.HelloWorld.Abstract", "DDCA.HelloWorld.Abstract\DDCA.HelloWorld.Abstract.csproj", "{10E71478-5F71-495B-98AE-B059959C2F3F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDCA.HelloWorld.Domain", "DDCA.HelloWorld.HelloWorldDomainService\DDCA.HelloWorld.Domain.csproj", "{CFAB1B68-60A2-4C52-9E60-65C7555D12BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DDCA.HelloWorld.Domain.Applications", "DDCA.HelloWorld.Domain.Applications", "{1B27F997-84AB-4D93-AD11-7370E6C1D304}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DDCA.HelloWorld.Domain.Services", "DDCA.HelloWorld.Domain.Services", "{599DEF65-4919-4669-B10D-35CF597F9468}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DDCA.HelloWorld.Common.Services", "DDCA.HelloWorld.Common.Services", "{B9A4F833-E49A-4E36-8112-07C2EBF32802}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDCA.HelloWorld.ConsoleApplication", "DDCA.HelloWorld.ConsoleApplication\DDCA.HelloWorld.ConsoleApplication.csproj", "{5670777E-0268-4C8B-9AA1-AD69E798F839}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DDCA.HelloWorld.UnitTests", "DDCA.HelloWorld.UnitTests\DDCA.HelloWorld.UnitTests.csproj", "{180FD2CE-F5D3-483B-BD21-0268A31C92C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDCA.HelloWorld.FileDataService", "DDCA.HelloWorld.FileDataService\DDCA.HelloWorld.FileDataService.csproj", "{04D5575F-DCDD-4FFE-8758-08555D62B60A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDCA.helloWorld.Common.SeriLogService", "DDCA.helloWorld.Common.SeriLogService\DDCA.helloWorld.Common.SeriLogService.csproj", "{1AC69032-64D6-4C80-BD2F-80F3FAABFAA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDCA.HelloWorld.Common.NLogService", "DDCA.HelloWorld.Common.NLogService\DDCA.HelloWorld.Common.NLogService.csproj", "{AD8216E9-8104-4224-97D8-FDBC4044E49E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{686C0149-922C-491A-B267-91AF42A8253F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{686C0149-922C-491A-B267-91AF42A8253F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{686C0149-922C-491A-B267-91AF42A8253F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{686C0149-922C-491A-B267-91AF42A8253F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10E71478-5F71-495B-98AE-B059959C2F3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10E71478-5F71-495B-98AE-B059959C2F3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10E71478-5F71-495B-98AE-B059959C2F3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10E71478-5F71-495B-98AE-B059959C2F3F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFAB1B68-60A2-4C52-9E60-65C7555D12BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFAB1B68-60A2-4C52-9E60-65C7555D12BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFAB1B68-60A2-4C52-9E60-65C7555D12BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFAB1B68-60A2-4C52-9E60-65C7555D12BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5670777E-0268-4C8B-9AA1-AD69E798F839}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5670777E-0268-4C8B-9AA1-AD69E798F839}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5670777E-0268-4C8B-9AA1-AD69E798F839}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5670777E-0268-4C8B-9AA1-AD69E798F839}.Release|Any CPU.Build.0 = Release|Any CPU
+		{180FD2CE-F5D3-483B-BD21-0268A31C92C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{180FD2CE-F5D3-483B-BD21-0268A31C92C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{180FD2CE-F5D3-483B-BD21-0268A31C92C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{180FD2CE-F5D3-483B-BD21-0268A31C92C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04D5575F-DCDD-4FFE-8758-08555D62B60A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04D5575F-DCDD-4FFE-8758-08555D62B60A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04D5575F-DCDD-4FFE-8758-08555D62B60A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04D5575F-DCDD-4FFE-8758-08555D62B60A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1AC69032-64D6-4C80-BD2F-80F3FAABFAA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1AC69032-64D6-4C80-BD2F-80F3FAABFAA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1AC69032-64D6-4C80-BD2F-80F3FAABFAA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1AC69032-64D6-4C80-BD2F-80F3FAABFAA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD8216E9-8104-4224-97D8-FDBC4044E49E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD8216E9-8104-4224-97D8-FDBC4044E49E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD8216E9-8104-4224-97D8-FDBC4044E49E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD8216E9-8104-4224-97D8-FDBC4044E49E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5670777E-0268-4C8B-9AA1-AD69E798F839} = {1B27F997-84AB-4D93-AD11-7370E6C1D304}
+		{04D5575F-DCDD-4FFE-8758-08555D62B60A} = {599DEF65-4919-4669-B10D-35CF597F9468}
+		{1AC69032-64D6-4C80-BD2F-80F3FAABFAA3} = {B9A4F833-E49A-4E36-8112-07C2EBF32802}
+		{AD8216E9-8104-4224-97D8-FDBC4044E49E} = {B9A4F833-E49A-4E36-8112-07C2EBF32802}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73B2B5E2-E769-41CE-8B81-106A3B0AD6B7}
+	EndGlobalSection
+EndGlobal
